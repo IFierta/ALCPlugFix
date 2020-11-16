@@ -10,16 +10,16 @@ The improvement include:
  - Refactor
  - Add listener when sleep/wake
  - Fix on sleep wake
- - Let you choose `hda-verb` so it don't need be in `$PATH`
+ - Let you choose `alc-verb` so it don't need be in `$PATH`
  - Enable launching as LauchDaemon
  - Bug fix
  - Install.sh script with update support
  - Uninstall.sh to uninstall ALCPlugFix
- - macOS Catalina support
+ - macOS Big Sur support
 
 Install
 -------
-By default it's code command is for Lenovo ThinkPad(s) with Realtek ALC3232 Audio Codec with Combo Jack, you may need to change that in `fixAudio` function.
+By default it's code command is for Asus K501LX (LB) with Realtek ALC233 Audio Codec with Combo Jack, you may need to change that in `fixAudio` function.
 
 Running `sh ./install.sh` will install to `/user/local/bin`.
 
@@ -27,11 +27,8 @@ By default it search `hda-verb` in current work directory, if not found it will 
 
 Compatible Laptops
 ------------------
-- Lenovo ThinkPad T440P
-- Lenovo ThinkPad T440
-- Lenovo ThinkPad T440S
-- Lenovo ThinkPad L440
-- Lenovo ThinkPad X240
+ASUS K501LX
+ASUS K501LB
 
 Build
 -----

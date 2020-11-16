@@ -3,7 +3,7 @@
 DAEMON_PATH=/Library/LaunchDaemons/
 BIN_PATH=/usr/local/bin/
 DAEMON_FILE=good.win.ALCPlugFix.plist
-VERB_FILE=hda-verb
+VERB_FILE=alc-verb
 FIX_FILE=ALCPlugFix
 
 echo "Installing ALCPlugFix v1.7"
@@ -23,7 +23,7 @@ fi
 # copy over the files to their respective locations (overwrite automatically if files exist)
 
 sudo cp -f ALCPlugFix $BIN_PATH
-sudo cp -f hda-verb $BIN_PATH
+sudo cp -f alc-verb $BIN_PATH
 sudo cp -f good.win.ALCPlugFix.plist $DAEMON_PATH
 
 # set permissions and ownership
